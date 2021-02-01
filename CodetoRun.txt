@@ -1,0 +1,8 @@
+./create.sh Udagramapp network.yml network-parameters.json
+
+./create-stack.sh Udagramapp2 servers.yml servers-parameters.json
+
+
+./delete.sh Udagramapp network.yml network-parameters.json
+
+./delete.sh Udagramapp2 servers.yml servers-parameters.json
